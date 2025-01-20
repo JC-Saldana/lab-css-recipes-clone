@@ -3,6 +3,11 @@
     color: #555555;
 }
 
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
 .presentation {
     background-image: url("../images/apple-pie.jpg");
     background-size: cover;
@@ -10,6 +15,8 @@
     max-width: 1200px;
     margin: auto;
     display: flex;
+    align-items: center;
+    position: relative;
 }
 
 .title {
@@ -17,6 +24,9 @@
     color: #fff;
     font-weight: 300;
     font-size: 54px;
+    position: absolute;
+    width: 100%;
+    margin: 0 auto;
 }
 
 main {
@@ -41,12 +51,15 @@ section {
     align-self: flex-start;
     font-size: 20px;
 }
-section > p {
+
+section>p {
     font-size: 16px;
 }
+
 hr {
     width: 500px;
 }
+
 ul {
     list-style-type: none;
 }
